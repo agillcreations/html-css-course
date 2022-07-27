@@ -1,0 +1,274 @@
+.basic {
+  border: 3px solid red;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+.css-buttons {
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 50px;
+}
+.amazon-cart {
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.request-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.request-button:hover {
+  opacity: 0.7;
+}
+
+.add-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: backgrond-color 0.15s;
+}
+
+.add-button:hover {
+  background-color: rgb(235, 197, 6);
+}
+
+.signup-button {
+  background-color: rgb(46, 164, 79);
+  border: none;
+  color: white;
+  height: 36px;
+  width: 90px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.signup-button:hover {
+  box-shadow: 5px 5px 10px rgba(46, 164, 79, 0.15);
+}
+
+/* ---GET-STARTED-BUTTON ---*/
+
+.get-started-button {
+  background-color: rgb(121, 82, 179);
+  border: none;
+  height: 36px;
+  width: 100px;
+  color: white;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.get-started-button:hover {
+  background-color: rgb(114, 61, 193);
+}
+
+/* ---DOWNLOAD-BUTTON--- */
+
+.download-button {
+  background-color: white;
+  border: 1px solid rgb(128, 117, 125);
+  border-radius: 3px;
+  height: 36px;
+  width: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.download-button:hover {
+  color: white;
+  background-color: rgba(128, 117, 125, 0.836);
+}
+
+/* ----APPLY-ON-COMPANY-BUTTON---- */
+
+.apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 36px;
+  width: 200px;
+  border-radius: 18px;
+  border: 1px solid blue;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.apply-button:hover {
+  background-color: blue;
+}
+
+/* SAVE-BUTTON */
+
+.save-button {
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+  height: 36px;
+  width: 75px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: border-width 0.15s;
+}
+
+.save-button:hover {
+  border-width: 3px;
+}
+
+/* ----amazon-buttons---- */
+
+/* ----AMAZON-ADD-TO-CART-BUTTON--- */
+
+.amazon-add-button {
+  background-color: rgb(249, 217, 76);
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+/* ----HOVER---- */
+.amazon-add-button:hover {
+  background-color: rgb(247, 202, 0);
+}
+/* ----ACTIVE--- */
+.amazon-add-button:active {
+  opacity: 0.5;
+}
+
+/* ----AMAZON-BUY-NOW-BUTTON---- */
+.amazon-buy-button {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+
+/* ----HOVER---- */
+.amazon-buy-button:hover {
+  background-color: rgb(255, 153, 0);
+}
+/* ----ACTIVE--- */
+.amazon-buy-button:active {
+  opacity: 0.5;
+}
+
+/* -----amazon link---- */
+.amazon-link {
+  color: rgb(0, 113, 133);
+  font-size: 20px;
+}
+
+.amazon-link:hover {
+  color: brown;
+}
+
+/* ----amazon sneaker description---- */
+
+.nike {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* ----price and stock---- */
+.price {
+  color: rgb(0, 118, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ----delivery---- */
+
+.delivery {
+  font-size: 20px;
+}
+
+/* ----BOX-MODEL---- */
+
+/* PAGINATION */
+.back,
+.next {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.back {
+  margin-right: 5px;
+}
+
+.next {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+/* STRETCH */
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px ;
+    border: 1px solid black;
+    transition: padding 1s;
+    margin-bottom: 20px;
+}
+
+.stretch-button:hover {
+    padding: 16px 30px;
+}
+
+/* 3D-Click */
+
+.shadow-button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px ;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 128, 0, 0.30);
+    margin-bottom: 20px;
+}
+
+.shadow-button:active {
+    margin-top: 3px;
+    margin-left:3px;
+    box-shadow: none;
+    
+}
+
+.one, 
+.two, 
+.three {
+    background-color: green;
+    color: white;
+    padding: 8px 15px ;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.one:hover, 
+.two:hover, 
+.three:hover {
+    padding-left:20px ;
+    padding-right: 20px;
+    margin-right: 7px;
+}

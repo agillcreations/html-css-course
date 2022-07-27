@@ -1,0 +1,143 @@
+.red-square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+.green-circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.satisfactory {
+  border: 1px solid rgba(0, 0, 0, 0.257);
+  width: 300px;
+  margin-left: 10px;
+}
+
+.satisfied-service {
+  margin-left: 10px;
+}
+
+.yes,
+.no {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.257);
+}
+
+/* youtube */
+
+.youtube {
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+}
+
+.install {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+}
+
+.add-youtube {
+  padding-left: 10px;
+  font-size: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+/* Tweeter comment */
+
+.tweet-container {
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.257);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 400px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.french-bull {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 200px;
+  margin-left: 5px;
+  object-fit: cover;
+}
+
+.question {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.tweet {
+  font-size: 15px;
+  background-color: rgba(73,153,233,255);
+  color: white;
+  vertical-align: middle;
+  margin-left: 100px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+/* doggo-profile */
+
+/* single-card */
+.doggo {
+  width: 200px;
+  height: 380px;
+  border: 1px solid black;
+  font-family: Arial;
+}
+
+.profile-image {
+  object-fit: cover;
+  width: 200px;
+  height: 250px;
+}
+
+.name {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.mutual {
+  color: #B3B3B2;
+  padding-left: 10px;
+}
+
+.add-friend-button {
+  background-color: rgb(56, 117, 233);
+  color: white;
+  margin-left: 10px;
+  padding: 9px 10px; 
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+/* three-cards */
+.doggos {
+  width: 200px;
+  height: 380px;
+  border: 1px solid black;
+  font-family: Arial;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+

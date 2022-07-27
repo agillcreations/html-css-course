@@ -1,0 +1,108 @@
+.samurai1 {
+  width: 200px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+.samurai2 {
+  object-fit: cover;
+  object-position: center;
+  width: 200px;
+  height: 200px;
+}
+
+.samurai3 {
+  width: 200px;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+
+.margin {
+  margin-bottom: 50px;
+}
+
+.search {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(1, 1, 1, 0.102);
+  margin-right: 0;
+  margin-left: 350px;
+  margin-bottom: 50px;
+}
+
+.search-google {
+  width: 200px;
+  padding-right: 200px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 1px 1px 1px 2px rgba(1, 1, 1, 0.102);
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.email-label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.email {
+  width: 373px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 3px solid black;
+}
+
+.policy {
+  margin-left: 10px;
+}
+
+.agree-join {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.617);
+  color: white;
+  font-size: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100px;
+  border: 1px solid blue;
+}
+.align {
+  vertical-align: middle;
+}
+.tweet-samurai {
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.tweet-question {
+  font-family: Arial;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: -50px;
+}
+
+.tweet-button {
+  margin-top: -50px;
+  float: right;
+  margin-right: 250pxpx;
+  background-color: rgba(48, 72, 224, 0.782);
+  color: white;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  padding: 5px;
+
+}

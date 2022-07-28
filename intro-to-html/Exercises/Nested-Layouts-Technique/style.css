@@ -1,0 +1,153 @@
+
+/* <!-- ---------------------------------------------------------- -->
+                          <!-- Twitter-Profile -->
+<!-- ---------------------------------------------------------- --> */
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-1 {
+    border: 2px solid black;
+    width: 550px;
+    height: 120px;
+}
+
+.profile-info {
+    font-size: 25px;
+    font-family: Arial;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+    height: 100px;
+    width: 120px;
+
+}
+
+.follows {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 180px;
+
+}
+
+.follow-button  {
+    font-size: 20px;
+    background-color: rgb(65, 147, 238);
+    color: white;
+    border: 1px solid rgb(65, 147, 238);
+    padding: 10px 15px;
+    border-radius:10px;
+
+}
+
+.profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    margin-top: 10px;
+    
+}
+
+.pit-1-profile {
+    width:100px ;
+    height: 100px;
+    object-fit: cover;
+    /* margin-top: 20px; */
+    margin-left:20px;
+    /* margin-right: 20px; */
+    border-radius: 200px;
+    
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.nick-name,
+.popularity {
+    color: rgb(141, 142, 142);
+    margin-top: 3px;
+}
+
+/* <!-- ---------------------------------------------------------- -->
+                  <!-- Three-Cats-Profile -->
+<!-- ---------------------------------------------------------- --> */
+
+.container-2 {
+    display: inline-block;
+    width: 200px;
+    height: 325px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: Arial;
+    background-color: rgba(226, 225, 225, 0.435);
+    box-shadow: 1px 1px 1px 1px rgba(226, 225, 225, 0.713) ;
+    border-radius: 2px;
+}
+
+.main-info {
+    margin-top: -48px;
+    width: 200px;
+    height: 125px;
+}
+.main-image {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 0;
+}
+.main-profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.name-oliver {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mutual{
+    margin-left: 5px;
+
+}
+
+.mutual-image-main {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: center;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.mutual-friends {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.number-mutual-friends {
+    display: inline-block;
+    vertical-align: center;
+    font-size: 10px;
+    color: rgb(141, 142, 142)
+}
+.mutual-image {
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.add-button {
+    background-color:rgb(65, 147, 238) ;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid rgb(65, 147, 238);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+

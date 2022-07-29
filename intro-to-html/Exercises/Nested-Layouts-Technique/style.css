@@ -91,6 +91,7 @@ p{
     margin-top: -48px;
     width: 200px;
     height: 125px;
+    margin-left: 10px;
 }
 .main-image {
     width: 200px;
@@ -141,10 +142,10 @@ p{
 } 
 
 .add-button {
-    background-color:rgb(65, 147, 238) ;
+    background-color:rgb(57, 116, 233) ;
     color: white;
     padding: 8px 15px;
-    border: 1px solid rgb(65, 147, 238);
+    border: 1px solid rgb(57, 116, 233);
     border-radius: 5px;
     margin-top: 5px;
 }

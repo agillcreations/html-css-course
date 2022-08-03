@@ -1,0 +1,70 @@
+
+
+/* exercise13a */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item1 {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item1>p {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.color-light {
+    background-color: lightblue;
+    width: 200px;
+}
+
+/* exercise13b */
+.container-2 {
+    margin-top: 50px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.color-light-pink {
+    background-color: lightpink;
+    width: 100px;
+}
+
+.color-light-blue {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.row1 {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    height: 50px;
+}
+p.row1{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.row2 {
+    height: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 p{
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}

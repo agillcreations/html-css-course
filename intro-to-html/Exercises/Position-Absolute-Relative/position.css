@@ -1,0 +1,93 @@
+body {
+    height: 3000px;
+}
+
+.btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+} 
+
+ .bottom-right {
+    position: fixed;
+    background-color: lightslategray;
+    width: 320px;
+    height: 180px;
+    bottom: 15px;
+    right: 15px;
+} 
+
+
+.bottom-right-1 {
+    background-color: lightgray;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    margin-bottom: 180px;
+}
+.btn-1 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.time-stamp {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+}
+
+.shirt-img {
+    position: relative;
+    display: inline-block;
+}
+
+.shirt {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.percentage {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+}
+
+.btn-container-1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.774);
+    right: 0;
+    left: 0;
+    bottom: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-add-to {
+    padding: 8px 15px;
+    border: 1px solid black;
+}

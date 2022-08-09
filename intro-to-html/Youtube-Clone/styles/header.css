@@ -54,7 +54,6 @@
 }
 
 .search-bar::placeholder {
-    font-family: Roboto,Arial;
     font-size: 16px;
     padding-left: 10px;
 }
@@ -66,11 +65,53 @@
     border: 1px solid rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 10px;
+    position: relative;
 }
+
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notifications-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip,
+.notifications-icon-container .tooltip
+ { 
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip{
+    opacity: 1;
+}
+
 
 .search-icon {
     height: 25px;
-    margin-top: 4px;
+
 
 }
 
@@ -118,7 +159,6 @@
     right: -5px;
     background: red;
     color: white;
-    font-family: Roboto, Arial;
     font-size: 11px;
     padding-left: 5px;
     padding-right: 5px;

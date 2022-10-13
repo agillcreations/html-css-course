@@ -1,3 +1,5 @@
+/* !positioning sidebar */
+
 .sidebar {
     position: fixed;
     left: 0;
@@ -8,6 +10,8 @@
     z-index: 200;
     padding-top: 5px;
 }
+
+/* !sidebar links flex and height */
 .sidebar-link {
     height: 74px;
     display: flex;
